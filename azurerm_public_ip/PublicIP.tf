@@ -1,3 +1,4 @@
+# references: https://www.terraform.io/docs/providers/azurerm/r/public_ip.html 
 resource "azurerm_public_ip" "pip" {
   name                                  = "${var.PipName}"
   resource_group_name                   = "${var.ResourceGroupName}"
