@@ -1,29 +1,29 @@
-variable "azure_tenant_ID" {
+variable "tenant_id" {
     type                                    = "string"
     default                                 = ""
     description                             = ""
 }
-variable "azure_subscription_ID" {
+variable "subscription_id" {
     type                                    = "string"
     default                                 = ""
     description                             = ""
 }
-variable "azure_client_ID" {
+variable "client_id" {
     type                                    = "string"
     default                                 = ""
     description                             = ""
 }
-variable "azure_client_secret" {
+variable "client_secret" {
     type                                    = "string"
     default                                 = ""
     description                             = ""
 }
-variable "azure_environment" {
+variable "environment" {
     type                                    = "string"
     default                                 = ""
     description                             = ""
 }
-variable "azure_region" {
+variable "region" {
     type                                    = "string"
     default                                 = ""
     description                             = ""
