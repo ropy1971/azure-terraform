@@ -2,8 +2,9 @@ tenant_id                                   = "replace with your own id"
 subscription_id                             = "replace with your own id"
 client_id                                   = "replace with your own id"
 client_secret                               = "replace with your own id"
+
 environment                                 = "terraform-sandboxing"
-region                                      = "francecentral"
+region                                      = "westeurope"
 
 tag_cost_center                             = "TBD"
 tag_customer                                = "n/a"

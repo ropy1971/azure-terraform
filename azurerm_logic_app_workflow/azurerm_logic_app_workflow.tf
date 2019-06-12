@@ -1,8 +1,9 @@
-resource "azurerm_resource_group" "rg" {
-    name                                    = "${var.environment}-rg"
-    location                                = "${var.region}"
+resource "azurerm_logic_app_workflow" "logic-app-workflow" {
+  name                                      = "${var.environment}-la-workflow"
+  resource_group_name                       = "${azurerm_resource_group.rg.name}"
+  location                                  = "${azurerm_resource_group.rg.location}"
 
-    tags {
+      tags {
         application                         = "${var.tag_application}"
         cost_center                         = "${var.tag_cost_center}"
         customer                            = "${var.tag_customer}"

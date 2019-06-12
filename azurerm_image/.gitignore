@@ -1,0 +1,14 @@
+azure.info
+import-resources.info 
+ip-plan.info 
+
+# terraform files
+out.plan
+terraform.tfstatebackup
+
+# files extensions
+*.exe
+*.backup
+
+# folders
+.terraform/ 

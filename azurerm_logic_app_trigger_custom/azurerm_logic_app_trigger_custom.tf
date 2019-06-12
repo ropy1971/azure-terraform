@@ -1,6 +1,6 @@
-resource "azurerm_logic_app_trigger_custom" "test" {
-  name         = "example-trigger"
-  logic_app_id = "${azurerm_logic_app_workflow.test.id}"
+resource "azurerm_logic_app_trigger_custom" "logic-app-trigger-custom" {
+  name                                      = "${var.environment}-la-custom-trigger"
+  logic_app_id                              = "${azurerm_logic_app_workflow.logic-app-workflow.id}"
 
   body = <<BODY
 {
