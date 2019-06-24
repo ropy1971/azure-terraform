@@ -1,0 +1,14 @@
+azure.info
+import-resources.info 
+ip-plan.info 
+
+out.plan
+terraform.tfstate
+terraform.tfstate.backup
+
+*.exe
+*.backup
+
+.terraform/ 
+.terraform/plugins
+.terraform/plugins/windows_amd64 
