@@ -1,18 +1,33 @@
+### authentication
 
-variable "SubscriptionID" {
-  type                                 = "string"
+variable "tenant_id" {
+  type        = string
+  default     = ""
+  description = ""
 }
 
-variable "TenantID" {
-  type                                 = "string"
+variable "subscription_id" {
+  type        = string
+  default     = ""
+  description = ""
 }
 
-variable "Region" {
-  type                                 = "string"
-  default                              = "westeurope"
+variable "subscription_name" {
+  type        = string
+  default     = ""
+  description = ""
 }
 
-variable "ResourceGroupName" {
-  type                                 = "string"
+variable "region" {
+  type        = string
+  default     = "francecentral"
+  description = ""
 }
 
+### main
+
+variable "kubernetes_cluster_resource_group_name" {
+  type        = string
+  default     = ""
+  description = ""
+}

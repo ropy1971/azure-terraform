@@ -1,7 +1,8 @@
-Region                                  = "westeurope"
+### authentication
+tenant_id         = ""
+subscription_id   = ""
+subscription_name = ""
+region            = "francecentral"
 
-SubscriptionID                          = "Replace with your own ID"
-TenantID                                = "Replace with your own ID"
-
-ResourceGroupName                       = "aatesting-rg"
-
+### main
+kubernetes_cluster_resource_group_name = ""
