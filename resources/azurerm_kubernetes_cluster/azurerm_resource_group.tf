@@ -1,9 +1,8 @@
-resource "azurerm_resource_group" "KubernetesResourceGroup" {
+resource "azurerm_resource_group" "ResourceGroup" {
 
-  # role: 
   # references: https://www.terraform.io/docs/providers/azurerm/r/resource_group.html 
 
-  name     = var.kubernetes_cluster_resource_group_name
+  name     = var.resource_group_name
   location = var.region
 
   tags = {
