@@ -1,4 +1,4 @@
-Azure Terraform configuration files
+**Azure Terraform configuration files**
 
 # Main
 
@@ -17,9 +17,9 @@ There are some folders to organize resources.
 
 # Comments
 
+- Please feel free to contribute to these scripts. 
+- Fork and Clone are also availables.
+
 # License
 
-# Last update: 2020.08.22
-
-- Please feel free to contribute to these scripts. 
-- Fork and Clone are also availables. 
+# Last update: 2020.08.26
