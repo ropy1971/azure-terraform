@@ -17,9 +17,9 @@ variable "resource_group_location" {
 
 }
 
-### storage
+### recovery
 
-variable "storage_account_name" {
+variable "recovery_services_vault_name" {
 
   type        = string
   default     = ""
@@ -27,42 +27,10 @@ variable "storage_account_name" {
 
 }
 
-variable "storage_account_tier" {
+variable "recovery_services_vault_sku" {
 
   type        = string
-  default     = "Standard"
-  description = ""
-
-}
-
-variable "storage_account_kind" {
-
-  type        = string
-  default     = "StorageV2"
-  description = ""
-
-}
-
-variable "storage_account_type" {
-
-  type        = string
-  default     = "LRS"
-  description = ""
-
-}
-
-variable "storage_account_access" {
-
-  type        = string
-  default     = "Cool"
-  description = ""
-
-}
-
-variable "storage_account_https" {
-
-  type        = string
-  default     = "true"
+  default     = ""
   description = ""
 
 }

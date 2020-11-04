@@ -1,4 +1,42 @@
 
+### compute
+
+variable "virtual_machine_nic_name" {
+
+  type        = string
+  default     = ""
+  description = ""
+
+}
+
+variable "virtual_machine_nic_ip_address" {
+
+  type        = string
+  default     = ""
+  description = ""
+
+}
+
+variable "virtual_machine_ip_configuration_name" {
+
+  type        = string
+  default     = ""
+  description = ""
+
+}
+
+variable "virtual_machine_nic_subnet" {
+
+  type        = string
+  default     = ""
+  description = ""
+
+}
+
+
+
+
+
 ### main
 
 variable "resource_group_name" {
@@ -17,52 +55,12 @@ variable "resource_group_location" {
 
 }
 
-### storage
+### network
 
-variable "storage_account_name" {
+variable "subnet_id" {
 
   type        = string
   default     = ""
-  description = ""
-
-}
-
-variable "storage_account_tier" {
-
-  type        = string
-  default     = "Standard"
-  description = ""
-
-}
-
-variable "storage_account_kind" {
-
-  type        = string
-  default     = "StorageV2"
-  description = ""
-
-}
-
-variable "storage_account_type" {
-
-  type        = string
-  default     = "LRS"
-  description = ""
-
-}
-
-variable "storage_account_access" {
-
-  type        = string
-  default     = "Cool"
-  description = ""
-
-}
-
-variable "storage_account_https" {
-
-  type        = string
-  default     = "true"
   description = ""
 
 }

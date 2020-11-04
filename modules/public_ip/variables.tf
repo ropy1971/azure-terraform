@@ -17,9 +17,9 @@ variable "resource_group_location" {
 
 }
 
-### storage
+### network
 
-variable "storage_account_name" {
+variable "public_ip_name" {
 
   type        = string
   default     = ""
@@ -27,42 +27,18 @@ variable "storage_account_name" {
 
 }
 
-variable "storage_account_tier" {
+variable "public_ip_sku" {
 
   type        = string
-  default     = "Standard"
+  default     = ""
   description = ""
 
 }
 
-variable "storage_account_kind" {
+variable "public_ip_allocation" {
 
   type        = string
-  default     = "StorageV2"
-  description = ""
-
-}
-
-variable "storage_account_type" {
-
-  type        = string
-  default     = "LRS"
-  description = ""
-
-}
-
-variable "storage_account_access" {
-
-  type        = string
-  default     = "Cool"
-  description = ""
-
-}
-
-variable "storage_account_https" {
-
-  type        = string
-  default     = "true"
+  default     = ""
   description = ""
 
 }

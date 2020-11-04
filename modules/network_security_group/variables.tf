@@ -12,14 +12,14 @@ variable "resource_group_name" {
 variable "resource_group_location" {
 
   type        = string
-  default     = ""
+  default     = "francecentral"
   description = ""
 
 }
 
-### storage
+### network
 
-variable "storage_account_name" {
+variable "subnet_id" {
 
   type        = string
   default     = ""
@@ -27,42 +27,12 @@ variable "storage_account_name" {
 
 }
 
-variable "storage_account_tier" {
+### security
+
+variable "network_security_group_name" {
 
   type        = string
-  default     = "Standard"
-  description = ""
-
-}
-
-variable "storage_account_kind" {
-
-  type        = string
-  default     = "StorageV2"
-  description = ""
-
-}
-
-variable "storage_account_type" {
-
-  type        = string
-  default     = "LRS"
-  description = ""
-
-}
-
-variable "storage_account_access" {
-
-  type        = string
-  default     = "Cool"
-  description = ""
-
-}
-
-variable "storage_account_https" {
-
-  type        = string
-  default     = "true"
+  default     = ""
   description = ""
 
 }
