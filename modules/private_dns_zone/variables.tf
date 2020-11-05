@@ -78,6 +78,14 @@ variable "tag_owner" {
 
 }
 
+variable "tag_registrar" {
+
+  type        = string
+  default     = ""
+  description = ""
+
+}
+
 variable "tag_role" {
 
   type        = string

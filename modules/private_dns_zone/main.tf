@@ -15,6 +15,7 @@ resource "azurerm_private_dns_zone" "PrivateDNSZone" {
     Environment       = var.tag_environment
     Location          = var.tag_location
     Owner             = var.tag_owner
+    Registrar         = var.tag_registrar
     Role              = var.tag_role
     
   }
