@@ -1,7 +1,7 @@
 
 resource "azurerm_resource_group" "ResourceGroup" {
   
-  # references: https://www.terraform.io/docs/providers/azurerm/r/resource_group.html 
+  # references: https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/resource_group
 
   name     = var.resource_group_name
   location = var.region

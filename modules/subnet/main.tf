@@ -1,7 +1,7 @@
 
 resource "azurerm_subnet" "Subnet" {
 
-  # references: https://www.terraform.io/docs/providers/azurerm/r/subnet.html
+  # references: https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/subnet 
 
   name                 = var.subnet_name
   resource_group_name  = var.resource_group_name

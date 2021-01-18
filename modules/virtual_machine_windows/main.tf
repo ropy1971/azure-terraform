@@ -1,6 +1,8 @@
 
 resource "azurerm_virtual_machine" "VirtualMachine" {
 
+  # references: https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/windows_virtual_machine 
+
   name                          = var.virtual_machine_name
 
   resource_group_name           = var.resource_group_name

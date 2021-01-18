@@ -1,5 +1,7 @@
 
-resource "azurerm_virtual_network_peering" "Hub2Spoke" {
+resource "azurerm_virtual_network_peering" "VirtualNetworkPeering" {
+
+  # references: https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/virtual_network_peering 
 
   name                      = var.peering_name
   resource_group_name       = var.resource_group_name
