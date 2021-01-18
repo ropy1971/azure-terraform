@@ -1,7 +1,7 @@
 
-resource "azurerm_storage_account" "sa" {
+resource "azurerm_storage_account" "StorageAccount" {
 
-  # references: https://www.terraform.io/docs/providers/azurerm/r/storage_account.html
+  # references: https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_account 
 
   name                      = var.storage_account_name
   resource_group_name       = var.resource_group_name

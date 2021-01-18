@@ -1,7 +1,7 @@
 
-### key vault
+### compute
 
-variable "key_vault_name" {
+variable "virtual_machine_nic_name" {
 
   type        = string
   default     = ""
@@ -9,7 +9,23 @@ variable "key_vault_name" {
 
 }
 
-variable "key_vault_sku" {
+variable "virtual_machine_nic_ip_address" {
+
+  type        = string
+  default     = ""
+  description = ""
+
+}
+
+variable "virtual_machine_ip_configuration_name" {
+
+  type        = string
+  default     = ""
+  description = ""
+
+}
+
+variable "virtual_machine_nic_subnet" {
 
   type        = string
   default     = ""
@@ -35,7 +51,9 @@ variable "resource_group_location" {
 
 }
 
-variable "tenant_id" {
+### network
+
+variable "subnet_id" {
 
   type        = string
   default     = ""
