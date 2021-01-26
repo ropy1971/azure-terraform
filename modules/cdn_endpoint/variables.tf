@@ -1,6 +1,14 @@
 
 ### CDN
 
+variable "cdn_endpoint_name" {
+
+  type        = string
+  default     = ""
+  description = ""
+
+}
+
 variable "cdn_profile_name" {
 
   type        = string
@@ -9,7 +17,15 @@ variable "cdn_profile_name" {
 
 }
 
-variable "cdn_sku" {
+variable "origin_name" {
+
+  type        = string
+  default     = ""
+  description = ""
+
+}
+
+variable "hostname" {
 
   type        = string
   default     = ""
