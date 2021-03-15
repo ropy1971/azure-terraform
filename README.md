@@ -1,8 +1,11 @@
-**Azure Terraform configuration files**
 
-# Main
+# AZURE-TERRAFORM
 
-This repository is containing all resources dedicated to Alibaba Cloud/Aliyun based on Terraform technology. 
+This repository is containing all resources dedicated to Azure based on Terraform technology. 
+
+# Status
+
+[PUBLIC]
 
 # Folders organization
 
@@ -22,4 +25,6 @@ There are some folders to organize resources.
 
 # License
 
-# Last update: 2020.08.26
+Check the License file.
+
+# Last update: 2021.03.14
