@@ -33,10 +33,6 @@ variable "virtual_machine_nic_subnet" {
 
 }
 
-
-
-
-
 ### main
 
 variable "resource_group_name" {
