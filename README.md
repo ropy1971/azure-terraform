@@ -1,30 +1,18 @@
 
-# AZURE-TERRAFORM
+# README.md
 
-This repository is containing all resources dedicated to Azure based on Terraform technology. 
+## introduction
 
-# Status
+## status
 
 [PUBLIC]
 
-# Folders organization
+## folders organization
 
-There are some folders to organize resources.
+## comments
 
-- architecture.
-- data.
-- pictures.
-- resources.
+## license
 
-# Resources listing
+Check the license file.
 
-# Comments
-
-- Please feel free to contribute to these scripts. 
-- Fork and Clone are also availables.
-
-# License
-
-Check the License file.
-
-# Last update: 2021.03.14
+## last update: 2021.06.22
