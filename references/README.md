@@ -19,6 +19,4 @@ Some useful references for this repository.
 
 ### webistes
 
-## last updates: 2021.06.28
-
-
+## last updates: 2021.07.06
