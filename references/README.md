@@ -13,10 +13,10 @@ Some useful references for this repository.
 
 ### documentation
 
-- [Markdown syntax](https://github.com/ropy1971/azure-terraform/blob/master/references/markdown-cheatsheet-online.pdf)
+- [Markdown syntax](./markdown-cheatsheet-online.pdf)
 
 ### reading
 
 ### webistes
 
-## last updates: 2021.07.06
+## last updates: 2021.09.07
